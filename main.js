@@ -3,7 +3,7 @@ const tabs = document.querySelectorAll(".accordion__tab");
 // 回答コンテンツを変数に入れる
 const contents = document.querySelectorAll(".accordion__content");
 for (let i = 0; i < tabs.length; i++) {
-  // 質問タブをクリックしたら発火
+  // 質問タブをクリックしたら実行
   tabs[i].addEventListener("click", function () {
     // クリックした質問タブのactiveクラスを付け替える
     this.classList.toggle("active");
